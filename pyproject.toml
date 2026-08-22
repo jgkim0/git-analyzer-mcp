@@ -1,0 +1,18 @@
+[project]
+name = "git-analyzer-mcp"
+version = "0.1.0"
+description = "MCP server that lets an AI assistant inspect a local git repository: recent commits, diffs, blame, commit search, branches, and file history."
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[project.scripts]
+git-analyzer-mcp = "git_analyzer_mcp.server:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["git_analyzer_mcp*"]

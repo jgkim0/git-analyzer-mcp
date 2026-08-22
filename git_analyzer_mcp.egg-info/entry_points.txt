@@ -1,0 +1,2 @@
+[console_scripts]
+git-analyzer-mcp = git_analyzer_mcp.server:main

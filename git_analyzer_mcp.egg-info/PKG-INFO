@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: git-analyzer-mcp
+Version: 0.1.0
+Summary: MCP server that lets an AI assistant inspect a local git repository: recent commits, diffs, blame, commit search, branches, and file history.
+Requires-Python: >=3.10
+Requires-Dist: mcp>=1.0.0

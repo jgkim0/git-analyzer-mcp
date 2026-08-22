@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+git_analyzer_mcp/__init__.py
+git_analyzer_mcp/git_ops.py
+git_analyzer_mcp/server.py
+git_analyzer_mcp.egg-info/PKG-INFO
+git_analyzer_mcp.egg-info/SOURCES.txt
+git_analyzer_mcp.egg-info/dependency_links.txt
+git_analyzer_mcp.egg-info/entry_points.txt
+git_analyzer_mcp.egg-info/requires.txt
+git_analyzer_mcp.egg-info/top_level.txt
